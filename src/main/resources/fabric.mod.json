@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "cartpvpmod",
+  "version": "1.0.0",
+  "name": "Cart PvP Mod",
+  "description": "Places rail + TNT minecart where arrow hits.",
+  "authors": ["Mr Gamer IND"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.cartpvpmod.CartPvPMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "1.21.1",
+    "fabric": "*"
+  }
+}
